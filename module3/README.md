@@ -11,14 +11,17 @@ ENTRYPOINT /httpserver`
 
 ### 3、执行Dockerfile
 
-![image-20221013230650527](/Users/jason/Library/Application Support/typora-user-images/image-20221013230650527.png)
+` sudo docker build -t htttpserver .`
+
+![./1.png](./1.png)
 
 ### 4、登陆docker login
+
+`docker login -u xxxx`
 
 ### 5、创建tag标签 docker tag httpserver xxxx/httpserver:v1
 
 ### 6、推送镜像docker push xxxx/httpserver:v1
 
+![2](./2.png)
 
-
-![image-20221013231020895](/Users/jason/Library/Application Support/typora-user-images/image-20221013231020895.png)
